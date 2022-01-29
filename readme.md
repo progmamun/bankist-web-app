@@ -24,3 +24,7 @@ movements.forEach(function (movement) {
 });
 
 ```
+
+movements.forEach(function (movement, index, array) {}
+
+- first parameter the current element , second parameter always the current index of array, third one always the entire array
