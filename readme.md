@@ -28,3 +28,8 @@ movements.forEach(function (movement) {
 movements.forEach(function (movement, index, array) {}
 
 - first parameter the current element , second parameter always the current index of array, third one always the entire array
+
+---
+
+- [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
+  `element.insertAdjacentHTML(position, text); `
