@@ -33,3 +33,15 @@ movements.forEach(function (movement, index, array) {}
 
 - [insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
   `element.insertAdjacentHTML(position, text); `
+
+## **Map Method:**
+
+- map returns a **new array** containing the result of applying an operation on all original array elements.
+
+## **Filter Method:**
+
+- filter returns a **new array** containing the array elements that passed a specified **test condition**.
+
+## **Reduce Method:**
+
+- reduce boils ("reduces") all array elements down to one single value (e.g. adding all elements together)
