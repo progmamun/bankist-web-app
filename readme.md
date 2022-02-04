@@ -48,3 +48,27 @@ movements.forEach(function (movement, index, array) {}
 - first parameter call **accumulator** . | like _SNOWBALL_| 2nd parameter **current value** .
 
 ## Flat | flatMap
+
+## Sorting
+
+`return < 0, A, B, C (keep order)| return > 0, C, B, A (switch order)`
+
+- **String and number together it's not work**
+
+```
+// Ascending
+movements.sort((a, b) => {
+  if (a > b) return 1;
+  if (a < b) return -1;
+});
+// or
+movements.sort((a, b) => a - b);
+
+// Descending
+movements.sort((a, b) => {
+  if (a > b) return -1;
+  if (a < b) return 1;
+});
+// or
+movements.sort((a, b) => b - a);
+```

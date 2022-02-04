@@ -247,3 +247,23 @@ const overalBalance = accounts
 const overalBalance2 = accounts
   .flatMap(acc => acc.movements)
   .reduce((acc, mov) => acc + mov, 0);
+
+// Sorting
+// return < 0, A, B, C (keep order)
+// return > 0, C, B, A (switch order)
+
+// Ascending
+// movements.sort((a, b) => {
+//   if (a > b) return 1;
+//   if (a < b) return -1;
+// });
+// or
+movements.sort((a, b) => a - b);
+
+// Descending
+// movements.sort((a, b) => {
+//   if (a > b) return -1;
+//   if (a < b) return 1;
+// });
+// or
+movements.sort((a, b) => b - a);
