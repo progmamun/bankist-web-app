@@ -277,3 +277,16 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 // });
 // or
 // movements.sort((a, b) => b - a);
+
+const y = Array.from({ length: 7 }, () => 1);
+console.log(y);
+const z = Array.from({ length: 100 }, (_, i) => i++);
+console.log(z);
+// convert array
+labelBalance.addEventListener('click', function () {
+  const movementsUI = Array.from(
+    document.querySelectorAll('.movements__value'),
+    el => Number(el.textContent.replace('£', ''))
+  );
+  console.log(movementsUI);
+});

@@ -72,3 +72,8 @@ movements.sort((a, b) => {
 // or
 movements.sort((a, b) => b - a);
 ```
+
+## Empty arrays | fill method | Array.from method
+
+`const y = Array.from({ length: 7 }, () => 1);`
+`const z = Array.from({ length: 100 }, (_, i) => i++);`
