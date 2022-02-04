@@ -236,3 +236,14 @@ const deposits = movements.filter(function (mov) {
 });
 
 const withdrawals = movements.filter(mov => mov < 0);
+
+// flat
+const overalBalance = accounts
+  .map(acc => acc.movements)
+  .flat()
+  .reduce((acc, mov) => acc + mov, 0);
+
+// flatMap
+const overalBalance2 = accounts
+  .flatMap(acc => acc.movements)
+  .reduce((acc, mov) => acc + mov, 0);

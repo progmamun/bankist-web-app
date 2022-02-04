@@ -46,3 +46,5 @@ movements.forEach(function (movement, index, array) {}
 
 - reduce boils ("reduces") all array elements down to one single value (e.g. adding all elements together)
 - first parameter call **accumulator** . | like _SNOWBALL_| 2nd parameter **current value** .
+
+## Flat | flatMap
