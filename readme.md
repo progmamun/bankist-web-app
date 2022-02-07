@@ -77,3 +77,5 @@ movements.sort((a, b) => b - a);
 
 `const y = Array.from({ length: 7 }, () => 1);`
 `const z = Array.from({ length: 100 }, (_, i) => i++);`
+
+- `console.log(+'23');` type coercion. | convert into number
