@@ -81,3 +81,10 @@ movements.sort((a, b) => b - a);
 - **Conversion** `console.log(+'23');` type coercion. | convert into number
 
 ### Parsing in function
+
+`console.log(Number.parseInt('30px', 10));`
+`console.log(Number.parseInt('e23', 10)); `
+
+## Checking if value is number
+
+`console.log(Number.isFinite(20));` `console.log(Number.isFinite('20'));`
