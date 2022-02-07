@@ -105,4 +105,12 @@ console.log(future.getDay());
 console.log(future.getHours());
 console.log(future.getMinutes());
 console.log(future.getSeconds());
+console.log(future.toISOString()); | international
+
+console.log(future.getTime());
+
+console.log(Date.now());
+
+future.setFullYear(2040);
+console.log(future);
 ```
