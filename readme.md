@@ -118,3 +118,5 @@ console.log(future);
 ### Internationalizing Dates(intl) `labelDate.textContent = new Intl.DateTimeFormat('en-US').format(now);`
 
 [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+
+## setTimeout()
